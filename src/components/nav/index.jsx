@@ -36,7 +36,7 @@ function Navbar() {
         <div>
           <button
             type="submit"
-            className="flex space-x-3 font-bold bg-green-500 hover:bg-green-800 text-white px-4 py-1 rounded shadow-lg"
+            className="flex space-x-3 font-bold bg-green-500 hover:bg-green-800 hover:scale-110 duration-500 text-white px-4 py-1 rounded shadow-lg"
           >
             <p>New Project </p>
             <MdOutlineMailOutline size="1.5rem" />

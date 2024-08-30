@@ -6,8 +6,9 @@ function Home() {
       /* Banner  */
     },
     (
-      <header className="w-full h-[420px] bg-zinc-900 bg-home bg-cover bg-center ">
-        <div className="w-full h-full flex flex-col justify-center items-center">
+      <header className="w-full h-[420px] relative">
+        <div className="absolute w-full h-full bg-home bg-cover bg-center filter drop-shadow-md grayscale-[80%]"></div>
+        <div className="w-full h-full flex flex-col justify-center items-center relative z-10">
           <h1 className="text-4xl mt-4 mb-2 font-bold text-white">
             {" "}
             Manoel Ferreira Matos{" "}
@@ -19,7 +20,7 @@ function Home() {
           <div className="pt-6">
             <button
               type="submit"
-              className="flex space-x-3 font-bold bg-green-500 hover:bg-green-800 text-white px-4 py-1 rounded hover:scale-110"
+              className="flex space-x-3 font-bold bg-green-500 hover:bg-green-800 duration-300 focus:outline-none focus:ring focus:ring-green-300 text-white px-4 py-1 rounded hover:scale-110"
             >
               <p> My CV </p>
             </button>

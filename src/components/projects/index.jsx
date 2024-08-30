@@ -27,7 +27,7 @@ function Project() {
               href="https://github.com/ManelFer/Sistema_de_caixa"
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-gray-900 px-5 rounded add-to-cart-btn text-white "
+              className="bg-gray-900 px-5 hover: rounded add-to-cart-btn text-white "
             >
               gitHub
             </a>
