@@ -47,7 +47,7 @@ function Contact() {
 
           <button
             type="submit"
-            className="bg-gradient-to-r bg-gray-900 px-5 py-2 rounded-md text-white hover:from-gray-700 hover:to-gray-600"
+            className="bg-gradient-to-r bg-gray-900 px-5 py-2 rounded-md text-white hover:from-green-700 hover:to-grenn-600"
           >
             {" "}
             Enviar{" "}
