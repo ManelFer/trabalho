@@ -24,7 +24,7 @@ function About() {
           <p className="text-white text-xl">
             ------Regarding my personal tastes, i really like hiking and playing
             on the computer and also developing systems and websites. I'm very
-            passionate aboute coffe, i have three coffe tattoos.
+            passionate aboute coffe, i have three coffe tattoos. oi
           </p>
         </div>
       </div>
