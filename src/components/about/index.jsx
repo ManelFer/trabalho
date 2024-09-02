@@ -3,8 +3,8 @@ import Img from "../../assets/about.png";
 
 function About() {
   return (
-    <div className="flex flex-row justify-between bg-zinc-600 p-4">
-      <div className="w-2/3">
+    <div className="flex flex-col md:flex-row justify-between bg-zinc-600 p-4">
+      <div className="w-full md:w-2/3">
         <h2 className="flex justify-center font-bold text-white"> About-me </h2>
         <h1 className="flex justify-center font-bold text-white text-3xl">
           {" "}
@@ -28,8 +28,8 @@ function About() {
           </p>
         </div>
       </div>
-      <div className="w-1/4 flex justify-center items-center">
-        <img src={Img} alt="Minha foto" className="w-full" />
+      <div className="w-[50%] md:w-1/4 mx-auto">
+        <img src={Img} alt="Minha foto" className="w-full mx-auto" />
       </div>
     </div>
   );

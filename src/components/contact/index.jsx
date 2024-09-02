@@ -3,8 +3,8 @@ import Img from "../../assets/contact.png";
 
 function Contact() {
   return (
-    <div className="flex flex-row justify-between bg-zinc-600 p-4">
-      <div className="w-1/2">
+    <div className="flex flex-col justify-between bg-zinc-600 p-4 md:flex-row md:items-center">
+      <div className="w-full md:w-1/2">
         <h1 className="w-full flex flex-col justify-center items-center font-bold text-white text-3xl">
           {" "}
           Contato{" "}
@@ -54,8 +54,8 @@ function Contact() {
           </button>
         </form>
       </div>
-      <div className="w-1/2 flex justify-center items-center">
-        <img src={Img} alt="Imagem de contato" className="w-1/2 " />
+      <div className="w-full md:w-1/2 mx-auto">
+        <img src={Img} alt="Imagem de contato" className="w-1/2 mx-auto " />
       </div>
     </div>
   );

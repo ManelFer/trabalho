@@ -4,7 +4,7 @@ import Js from "../../assets/js.png";
 
 function Project() {
   return (
-    <main className="grid grid-cols-3 gap-4 p-2">
+    <main className="grid grid-cols-1 md:grid-cols-3 gap-4 p-2">
       <div className=" p-2 flex flex-col items-center bg-zinc-600 hover:scale-110 duration-500 border border-white">
         <img
           src={Python}
