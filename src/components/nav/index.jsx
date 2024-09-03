@@ -11,7 +11,7 @@ function Navbar() {
   const navItems = [
     { id: 1, text: "Home" },
     { id: 2, text: "About" },
-    { id: 3, text: "Project" },
+    { id: 3, text: "Project", anchor: "Project" },
     { id: 4, text: "Contact" },
   ];
   return (

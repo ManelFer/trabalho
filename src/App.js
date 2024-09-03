@@ -12,7 +12,9 @@ function App() {
         <div>
           <Home />
           <About />
-          <Project />
+          <section id="Project">
+            <Project />
+          </section>
           <Contact />
         </div>
       </div>
