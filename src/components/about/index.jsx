@@ -29,7 +29,11 @@ function About() {
         </div>
       </div>
       <div className="w-[50%] md:w-1/4 mx-auto">
-        <img src={Img} alt="Minha foto" className="w-full mx-auto" />
+        <img
+          src={Img}
+          alt="Minha foto"
+          className="w-full mx-auto hover:scale-105 duration-300"
+        />
       </div>
     </div>
   );

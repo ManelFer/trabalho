@@ -7,17 +7,21 @@ import Contact from "./components/contact";
 function App() {
   return (
     <div className="App">
-      <div>
-        <Nav />
-        <div>
+      <Nav />
+      <main>
+        <section id="Home">
           <Home />
+        </section>
+        <section id="About">
           <About />
-          <section id="Project">
-            <Project />
-          </section>
+        </section>
+        <section id="Project">
+          <Project />
+        </section>
+        <section id="Contact">
           <Contact />
-        </div>
-      </div>
+        </section>
+      </main>
     </div>
   );
 }

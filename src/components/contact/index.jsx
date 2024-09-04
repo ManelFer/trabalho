@@ -7,7 +7,7 @@ function Contact() {
       <div className="w-full md:w-1/2">
         <h1 className="w-full flex flex-col justify-center items-center font-bold text-white text-3xl">
           {" "}
-          Contato{" "}
+          Contact{" "}
         </h1>
         <form className="flex flex-col w-full" action="">
           <label className="block mb-2 text-white" htmlFor="name">
@@ -55,7 +55,11 @@ function Contact() {
         </form>
       </div>
       <div className="w-full md:w-1/2 mx-auto">
-        <img src={Img} alt="Imagem de contato" className="w-1/2 mx-auto " />
+        <img
+          src={Img}
+          alt="Imagem de contato"
+          className="w-1/2 mx-auto hover:scale-105 duration-300 "
+        />
       </div>
     </div>
   );

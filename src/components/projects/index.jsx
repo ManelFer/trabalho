@@ -4,23 +4,19 @@ import Js from "../../assets/js.png";
 
 function Project() {
   return (
-    <main className="grid grid-cols-1 md:grid-cols-3 gap-4 p-2">
-      <div className=" p-2 flex flex-col items-center bg-zinc-600 hover:scale-110 duration-500 border border-white">
+    <main className="grid grid-cols-1 md:grid-cols-3">
+      <div className=" p-2 flex flex-col items-center bg-zinc-600 hover:scale-110 duration-500 border">
         <img
           src={Python}
           alt=""
           className="w-10 h-10 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
         />
         <div className="flex flex-col justify-center items-center">
-          <p className="font-bold text-zinc-300 gap-4">
-            {" "}
-            Sistema de Caixa eletronico{" "}
-          </p>
+          <p className="font-bold text-zinc-300 gap-4"> ATM System </p>
           <p className="text-wrap text-zinc-300 gap-2">
             {" "}
-            Projeto realizado no curso de python da plataforma DIO. Confira o
-            código do sistema de caixa eletronico de banco feito em Python e
-            poo!
+            Project carried out in the DIO platform python course. Check out the
+            bank ATM system code made in Python and poo!
           </p>
           <div className="flex justify-between gap-2 mt-3">
             <a
@@ -35,18 +31,18 @@ function Project() {
         </div>
       </div>
 
-      <div className="p-2 flex flex-col items-center bg-zinc-600 hover:scale-110 duration-500 border border-white">
+      <div className="p-2 flex flex-col items-center bg-zinc-600 hover:scale-110 duration-500 border">
         <img
           src={Js}
           alt=""
           className="w-12 h-12 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
         />
         <div className="flex flex-col justify-center items-center">
-          <p className="font-bold text-zinc-300 gap-4"> Cardapio Digital </p>
+          <p className="font-bold text-zinc-300 gap-4"> Digital menu </p>
           <p className="text-wrap text-zinc-300 gap-2">
-            Projeto feito em HTML, CSS, JAVASCRIPT e TAILWINDCSS. Cardapio
-            digital e responsivel, feito para testar meus conhecimento no
-            tailwindcss e javascript!
+            Project made in HTML, CSS, JAVASCRIPT and TAILWINDCSS. Menu digital
+            and responsive, made to test my knowledge in tailwindcss and
+            javascript!
           </p>
           <div>
             <a
@@ -61,18 +57,18 @@ function Project() {
         </div>
       </div>
 
-      <div className=" p-2 flex flex-col items-center bg-zinc-600 hover:scale-110 duration-500 border border-white">
+      <div className=" p-2 flex flex-col items-center bg-zinc-600 hover:scale-110 duration-500 border ">
         <img
           src={Python}
           alt=""
           className="w-10 h-10 rounded-md hover:scale-110 hover:-rotate-2 duration-300"
         />
         <div className="flex flex-col justify-center items-center">
-          <p className="font-bold text-zinc-300 gap-4">Sistema de Login</p>
+          <p className="font-bold text-zinc-300 gap-4">Login System</p>
           <p className="text-wrap text-zinc-300 gap-2">
             {" "}
-            Sistema de login usando Python e sqLite Nesse sistema podemos usar
-            registro e login!
+            Login system using Python and sqLite In this system we can use
+            registration and login!
           </p>
           <div className="flex justify-between gap-2 mt-3">
             <a
