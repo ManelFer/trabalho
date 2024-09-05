@@ -20,8 +20,8 @@ Para executar este projeto, siga estes passos:
 * Design responsivo usando Tailwind CSS
 
 ## O que ainda precisa ser feito
-* [.Fazer o efeito de rolagem ainda é um problema a ser corrigido
-* .Fazer o contato funcional]
+* Fazer o efeito de rolagem ainda é um problema a ser corrigido
+* Fazer o contato funcional
 
 ## Contribuindo
 Contribuições são bem-vindas! Se encontrar algum problema ou tiver sugestões, por favor abra uma issue ou envie um pull request.
