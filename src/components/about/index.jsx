@@ -32,7 +32,7 @@ function About() {
         <img
           src={Img}
           alt="Minha foto"
-          className="w-full mx-auto hover:scale-105 duration-300"
+          className="md:w-full md:mx-auto  hover:scale-105 duration-300"
         />
       </div>
     </div>

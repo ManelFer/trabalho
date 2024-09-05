@@ -6,8 +6,8 @@ function Home() {
       /* Banner  */
     },
     (
-      <header className="w-full h-[420px] relative">
-        <div className="absolute w-full h-full bg-home bg-cover bg-center filter drop-shadow-md grayscale-[80%]"></div>
+      <header className="w-full h-[420px] relative border-b-2">
+        <div className="absolute w-full h-full bg-home bg-cover bg-center filter drop-shadow-md brightness-[50%]"></div>
         <div className="w-full h-full flex flex-col justify-center items-center relative z-10">
           <h1 className="text-4xl mt-4 mb-2 font-bold text-white">
             {" "}
