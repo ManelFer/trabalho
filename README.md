@@ -1,8 +1,8 @@
 # Site de Portfólio
-================
+Projeto realizado para a matéria de Front-end.
 
 ## Sobre
-Este é um site de portfólio pessoal construído com React, uma biblioteca JavaScript para construir interfaces de usuário. O objetivo deste projeto é demonstrar minhas habilidades e conhecimentos em React.
+Desenvolvi um site pessoal, também conhecido como portfólio, utilizando a biblioteca JavaScript React. O objetivo foi criar um site simples, mas que demonstre minhas habilidades e conhecimentos em React.
 
 ## Tecnologias Utilizadas
 * **React**: Biblioteca JavaScript para construir a interface do usuário
