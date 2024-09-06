@@ -45,7 +45,7 @@ function Project() {
             <img
               src={Python}
               alt="Project img"
-              className=" w-40 rounded-md p-4 ml-0"
+              className=" w-40 rounded-md p-4 ml-2"
             />
             <p className=" text-gray-600 text-lg mb-4"> Descrição do projeto</p>
             <p>
