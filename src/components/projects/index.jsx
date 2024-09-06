@@ -16,7 +16,7 @@ function Project() {
             <img
               src={Python}
               alt="project img"
-              className="rounded-full -mt-8"
+              className="w-40 rounded-md p-4 ml-1"
             />
             <p className="text-gray-600 text-lg mb-4">
               {" "}
@@ -29,7 +29,11 @@ function Project() {
           </div>
 
           <div className="card border border-gray-200 rounded-lg shadow-md p-4">
-            <img src={Js} alt="Project img" className="rounded-full -mt-8" />
+            <img
+              src={Js}
+              alt="Project img"
+              className="w-40 rounded-md p-4 ml-1"
+            />
             <p className="text-gray-600 text-lg mb-4"> Descrição do projeto</p>
             <p>
               <span className="text-primary font-bold"> Trabalho </span>
@@ -37,13 +41,13 @@ function Project() {
             <p>Colocar aqui um botão de direcionamento</p>
           </div>
 
-          <div className="card border border-gray-200 rounded-lg shadow-md p-4">
+          <div className=" card border border-gray-200 rounded-lg shadow-md p-4">
             <img
               src={Python}
               alt="Project img"
-              className="rounded-full -mt-8"
+              className=" w-40 rounded-md p-4 ml-0"
             />
-            <p className="text-gray-600 text-lg mb-4"> Descrição do projeto</p>
+            <p className=" text-gray-600 text-lg mb-4"> Descrição do projeto</p>
             <p>
               <span className="text-primary font-bold"> Sistema de Login </span>
             </p>
