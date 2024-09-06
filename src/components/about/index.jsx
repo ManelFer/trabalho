@@ -3,7 +3,10 @@ import Img from "../../assets/about.png";
 
 function About() {
   return (
-    <div className="flex flex-col md:flex-row justify-between bg-zinc-600 p-4">
+    <div
+      className="flex flex-col md:flex-row justify-between bg-zinc-600 p-4"
+      id="About"
+    >
       <div className="w-full md:w-2/3">
         <h2 className="flex justify-center font-bold text-white"> About-me </h2>
         <h1 className="flex justify-center font-bold text-white text-3xl">
