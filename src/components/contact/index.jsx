@@ -73,7 +73,9 @@ function Contact() {
           {enviado ? (
             <div>
               {" "}
-              <p>Enviado com sucesso </p>
+              <p className="text-2xl text-white font-bold flex justify-center p-2">
+                Enviado com sucesso{" "}
+              </p>
             </div>
           ) : (
             <form
@@ -124,7 +126,7 @@ function Contact() {
 
               <button
                 type="submit"
-                className="bg-gradient-to-r bg-gray-900 px-5 py-2 rounded-md text-white hover:from-green-700 hover:to-grenn-600"
+                className="bg-gradient-to-r bg-gray-900 px-5 py-2 rounded-md text-white hover:scale-105 duration-300 hover:from-green-700 hover:to-grenn-600"
               >
                 {" "}
                 Enviar{" "}
