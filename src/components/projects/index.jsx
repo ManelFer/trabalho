@@ -12,13 +12,25 @@ function Project() {
         </h2>
         <span className="line"></span>
         <div className="content grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-8">
+          {/* grid dos projetos */}
           <div className=" card border border-gray-200 rounded-lg shadow-md p-4 flex flex-col items-center">
             <img
               src={Python}
               alt="project img"
               className="w-40 rounded-md p-4 mb-4"
             />
-            <p className="text-gray-600 text-lg mb-4"> Descrição do projeto </p>
+            <button className="text-gray-600 text-lg mb-4" type="submit">
+              Descrição do projeto
+            </button>
+            {/* modal card */}
+
+            <div className="card border border-gray-200 rounded-lg shadow-md p-4 flex-col items-center hidden">
+              <div>
+                <h2> Descrição do projeto</h2>
+              </div>
+            </div>
+
+            {/*fim modal card */}
             <p className="p-2">
               <span className="text-primary font-bold"> Caixa eletronico</span>
             </p>
@@ -33,6 +45,7 @@ function Project() {
               </a>
             </div>
           </div>
+          {/* Modal grid para descrição */}
 
           <div className="card border border-gray-200 rounded-lg shadow-md p-4 flex flex-col items-center">
             <img
