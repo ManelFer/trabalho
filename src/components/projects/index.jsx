@@ -13,30 +13,23 @@ function Project() {
         <span className="line"></span>
         <div className="content grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-8">
           {/* grid dos projetos */}
-          <div className=" card border border-gray-200 rounded-lg shadow-md p-4 flex flex-col items-center">
+          <div className="card border border-gray-200 rounded-lg shadow-md p-4 flex flex-col items-center">
             <img
               src={Python}
-              alt="project img"
+              alt="Project img"
               className="w-40 rounded-md p-4 mb-4"
             />
-            <button className="text-gray-600 text-lg mb-4" type="submit">
-              Descrição do projeto
-            </button>
-            {/* modal card */}
-
-            <div className="card border border-gray-200 rounded-lg shadow-md p-4 flex-col items-center hidden">
-              <div>
-                <h2> Descrição do projeto</h2>
-              </div>
-            </div>
-
-            {/*fim modal card */}
-            <p className="p-2">
-              <span className="text-primary font-bold"> Caixa eletronico</span>
+            <p className="text-gray-600 text-lg mb-4">
+              {" "}
+              System done on a DIO course. Simulating a bank cash sysstem, with
+              cash system, with deposits and withdrawals
+            </p>
+            <p className="mt-auto p-1">
+              <span className="text-primary font-bold"> Caixa eletronico </span>
             </p>
             <div className="mt-auto hover:scale-110 duration-300">
               <a
-                href="https://github.com/ManelFer/Sistema_de_caixa"
+                href="https://github.com/ManelFer/trabalho"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-zinc-900 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded"
@@ -53,8 +46,12 @@ function Project() {
               alt="Project img"
               className="w-40 rounded-md p-4 mb-4"
             />
-            <p className="text-gray-600 text-lg mb-4"> Descrição do projeto</p>
-            <p className="pb-2">
+            <p className="text-gray-600 text-lg mb-4">
+              {" "}
+              Personal portfolio created fro front-end work for the systems
+              analysis and development course
+            </p>
+            <p className="mt-auto">
               <span className="text-primary font-bold"> Trabalho </span>
             </p>
             <div className="mt-auto hover:scale-110 duration-300">
@@ -69,19 +66,23 @@ function Project() {
             </div>
           </div>
 
-          <div className=" card border border-gray-200 rounded-lg shadow-md p-4 flex flex-col items-center">
+          <div className="card border border-gray-200 rounded-lg shadow-md p-4 flex flex-col items-center">
             <img
               src={Python}
               alt="Project img"
-              className=" w-40 rounded-md p-4 ml-2"
+              className="w-40 rounded-md p-4 mb-4"
             />
-            <p className=" text-gray-600 text-lg mb-4"> Descrição do projeto</p>
-            <p className="pb-2">
+            <p className="text-gray-600 text-lg mb-4">
+              {" "}
+              System created to test my knowledge in the tkinter libary,
+              database and python
+            </p>
+            <p className="mt-auto">
               <span className="text-primary font-bold"> Sistema de Login </span>
             </p>
             <div className="mt-auto hover:scale-110 duration-300">
               <a
-                href="https://github.com/ManelFer/SistemaLogin"
+                href="https://github.com/ManelFer/trabalho"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-zinc-900 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded"
