@@ -1,5 +1,6 @@
 import React, { useState, useRef } from "react";
 import Img from "../../assets/contact.png";
+//import Img2 from "../../assets/At the office.gif";
 import emailjs from "@emailjs/browser";
 
 function Contact() {
@@ -61,7 +62,7 @@ function Contact() {
 
   return (
     <div
-      className="flex flex-col justify-between bg-zinc-300 p-4 md:flex-row md:items-center"
+      className="flex flex-col justify-between bg-zinc-200 p-4 md:flex-row md:items-center"
       id="Contact"
     >
       <div className="w-full md:w-1/2">
@@ -139,7 +140,7 @@ function Contact() {
         <img
           src={Img}
           alt="Imagem de contato"
-          className="w-1/2 mx-auto hover:scale-105 duration-300 "
+          className="w-1/2 mx-auto hover:scale-105 duration-300 drop-shadow-xl"
         />
       </div>
     </div>
