@@ -17,7 +17,7 @@ function Project() {
             <img
               src={Python}
               alt="Project img"
-              className="w-40 rounded-md p-4 mb-4"
+              className="w-40 rounded-md p-4 mb-4 shadow-lg shadow-zinc-500/50"
             />
             <p className="text-gray-600 text-lg mb-4">
               {" "}
@@ -44,14 +44,14 @@ function Project() {
             <img
               src={Js}
               alt="Project img"
-              className="w-40 rounded-md p-4 mb-4"
+              className="w-40 rounded-md p-4 mb-4 shadow-lg shadow-zinc-500/50"
             />
             <p className="text-gray-600 text-lg mb-4">
               {" "}
               Personal portfolio created fro front-end work for the systems
               analysis and development course
             </p>
-            <p className="mt-auto">
+            <p className="mt-auto p-1">
               <span className="text-primary font-bold"> Trabalho </span>
             </p>
             <div className="mt-auto hover:scale-110 duration-300">
@@ -70,14 +70,14 @@ function Project() {
             <img
               src={Python}
               alt="Project img"
-              className="w-40 rounded-md p-4 mb-4"
+              className="w-40 rounded-md p-4 mb-4 shadow-lg shadow-zinc-500/50"
             />
             <p className="text-gray-600 text-lg mb-4">
               {" "}
               System created to test my knowledge in the tkinter libary,
               database and python
             </p>
-            <p className="mt-auto">
+            <p className="mt-auto p-1">
               <span className="text-primary font-bold"> Sistema de Login </span>
             </p>
             <div className="mt-auto hover:scale-110 duration-300">
@@ -85,7 +85,7 @@ function Project() {
                 href="https://github.com/ManelFer/trabalho"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-zinc-900 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded"
+                className="bg-zinc-900 hover:bg-zinc-700 text-white font-bold py-2 px-4 rounded "
               >
                 GitHub
               </a>

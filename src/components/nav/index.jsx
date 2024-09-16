@@ -20,6 +20,8 @@ function Nav() {
             offset={50}
             duration={500}
             onClick={closeMenu}
+            type="button"
+            className="cursor-pointer"
           >
             Home
           </Link>
@@ -32,6 +34,8 @@ function Nav() {
             offset={50}
             duration={500}
             onClick={closeMenu}
+            type="button"
+            className="cursor-pointer"
           >
             About
           </Link>
@@ -44,6 +48,8 @@ function Nav() {
             offset={50}
             duration={500}
             onClick={closeMenu}
+            type="button"
+            className="cursor-pointer"
           >
             Project
           </Link>
@@ -56,6 +62,8 @@ function Nav() {
             offset={50}
             duration={500}
             onClick={closeMenu}
+            type="button"
+            className="cursor-pointer"
           >
             Contact
           </Link>

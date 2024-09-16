@@ -1,4 +1,6 @@
 import React from "react";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FiGithub } from "react-icons/fi";
 
 function Home() {
   return (
@@ -24,6 +26,20 @@ function Home() {
             >
               <p> My CV </p>
             </button>
+            <div className="text-white p-2 flex space-x-4 justify-center">
+              <a
+                href="https://www.linkedin.com/in/manoel-mato/"
+                className="hover:scale-110 duration-500 "
+              >
+                <FaLinkedinIn />
+              </a>
+              <a
+                href="https://github.com/ManelFer"
+                className="hover:scale-110 duration-500"
+              >
+                <FiGithub />
+              </a>
+            </div>
           </div>
         </div>
       </header>
