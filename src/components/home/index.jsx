@@ -24,7 +24,9 @@ function Home() {
               type="submit"
               className="flex space-x-3 font-bold bg-green-500 hover:bg-green-800 duration-300 focus:outline-none focus:ring focus:ring-green-300 text-white px-4 py-1 rounded hover:scale-110"
             >
-              <p> My CV </p>
+              <a href="https://drive.google.com/file/d/16SlCd_DOVPeqbD6agcPoByOWWPhxS3iI/view?usp=sharing">
+                <p> My CV </p>
+              </a>
             </button>
             <div className="text-white p-2 flex space-x-4 justify-center">
               <a
