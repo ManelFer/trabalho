@@ -17,7 +17,7 @@ function Home() {
           </h1>
           <span className="text-white font-medium">
             {" "}
-            22 years old, Studying, Developer{" "}
+            22 years old, Studying Developer{" "}
           </span>
           <div className="pt-6">
             <button
