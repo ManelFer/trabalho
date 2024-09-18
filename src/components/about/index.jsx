@@ -17,14 +17,14 @@ function About() {
           {" "}
           my website{" "}
         </h2>
-        <div className="w-full mx-auto p-28">
-          <p className="text-black mb-2 text-xl">
+        <div className="w-full mx-auto md:p-28">
+          <p className="text-black mb-2 md:text-xl">
             {" "}
             ------Hello, my name is Manoel Ferreira Matos, but you can just call
             me Manoel. I'm 21 yeas old and currently working with technical
             support and studying systms analysis and development.{" "}
           </p>
-          <p className="text-black text-xl">
+          <p className="text-black md:text-xl">
             ------Regarding my personal tastes, i really like hiking and playing
             on the computer and also developing systems and websites. I'm very
             passionate aboute coffe, i have three coffe tattoos.
