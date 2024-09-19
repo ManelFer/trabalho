@@ -7,7 +7,7 @@ function Nav() {
 
   return (
     <nav className="bg-gradient-to-r from-zinc-800 to-zinc-700 flex justify-between items-center py-2 p-2 border-b-2 border-zinc-300">
-      <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-zinc-400 to-zinc-300 font-bold text-xl md:text-3xl lg:text-4xl xl:text-5xl pl-10">
+      <h1 className="bg-clip-text text-transparent bg-gradient-to-r from-zinc-400 to-zinc-300 font-bold text-xl md:text-2xl lg:text-4xl xl:text-5xl pl-10">
         {" "}
         Manoel Ferreira Matos{" "}
       </h1>
